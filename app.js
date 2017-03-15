@@ -20,9 +20,8 @@ app.use(function (req, res, next) {
     // Pass to next layer of middleware
     next();
 });
-app.get('/', function(req, res){
-   
-res.send("success");
+app.get('/test', function(req, res){
+   res.send("success");
 });
 
 app.post('/upload', multipartMiddleware, function(req, res){
