@@ -1,0 +1,17 @@
+{
+  "name": "node-server",
+  "scripts": {
+    "postdeploy": "node app.js",
+    "pr-predestroy": "node app.js"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
